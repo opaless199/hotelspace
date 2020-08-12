@@ -11,4 +11,9 @@ public class ClientFAQController {
 	@Autowired
 	private ClientFAQService clientFAQService;
 	
+	@RequestMapping(value = "/clientFAQServices.do", method = RequestMethod.GET)
+	public String blog_detailsPage() {
+		return "board/clientFAQServices";
+	}
+	
 }
