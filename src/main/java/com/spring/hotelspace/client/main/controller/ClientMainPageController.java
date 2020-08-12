@@ -13,10 +13,6 @@ public class ClientMainPageController {
 		return "index";
 	}
 
-	@RequestMapping(value = "/clientFAQServices.do", method = RequestMethod.GET)
-	public String blog_detailsPage() {
-		return "board/clientFAQServices";
-	}
 	@RequestMapping(value = "/clientHeader.do", method = RequestMethod.GET)
 	public String clientHeader() {
 		return "clientHeader";
